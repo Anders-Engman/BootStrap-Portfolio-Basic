@@ -1,0 +1,89 @@
+html, body { height: 100%; }
+
+.container {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white !important;
+    padding-bottom: 0px;
+    overflow: auto;
+}
+
+#TopContainer {
+    padding: 2px;
+}
+
+#DevName {
+    margin-left: 16px;
+    background-color:#4aaaa5;
+    color:white;
+    font-size: 23px;
+    max-width: 960px;
+    padding: 25px;
+    height: 100%;
+    text-decoration: none;
+}
+
+#RightLinks {
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 18px;
+    height: 100%;
+}
+
+body {
+    margin-top: 45px;
+    background-image:url(../images/qbkls.png);
+}
+
+#ContainerBkgrd {
+    background-color: white;
+    height: 100%;
+    padding: 30px;
+    padding-top: 0px;
+    overflow-y: auto;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.uglymug {
+    float: left;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+#ml-1 {
+    margin-right:100px, !important;
+}
+
+div.gallery {
+    margin: 5px 10px 5px 10px;
+    float: left;
+    width: 300px;
+}
+
+.desc {
+    position: relative;
+    bottom: 35px;
+    padding: 3px;
+    background-color:#4aaaa5;
+    max-width: 250px;
+    text-align: center;
+    color: white;
+}
+
+.contactCenter {
+    position: relative;
+    left: 115px;
+}

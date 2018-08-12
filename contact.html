@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<head>
+    <div class="header">
+        <container nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container" id="TopContainer">
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="DevName" href="#">Anders Engman</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right" id="RightLinks">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+    </div>
+</head>
+
+<body>
+
+    <container class="row">
+        <div class="col-md-12">
+        </div>
+    </container>
+
+    <container-fluid class="row">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-8" id="ContainerBkgrd">
+            <section class="section">
+
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-6">Contact Me</h2>
+                <hr>
+
+                <div class="row contactCenter">
+
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                        </form>
+
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+
+                </div>
+        </div>
+
+        <div class="col-md-2">
+        </div>
+        </container>
+
+        <container>
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-bottom" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                </ul>
+                <ul class="nav navbar-nav navbar-center">
+                    <li>
+                        <a href="#">Copyright</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    </div>
+            </nav>
+
+        </container>
+
+</body>
+
+</html>
